@@ -1,0 +1,15 @@
+#nav-bar {
+  position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: white;
+      height: 50px;
+      display: flex;
+  justify-content: space-around;
+    }
+@media (max-width: 600px) {
+  #nav-bar {
+    flex-direction: column;
+  }
+}
